@@ -1,0 +1,8 @@
+name: Insomnia
+main: com.etherelements.hereinplainsight.insomnia.insomnia
+version: 0.1
+commands:
+  insomnia:
+    description: Not yet implemented.  Not sure it's necessary, why did you type it?
+    usage: /<command>
+    permission-message: You don't have permission to do that.
