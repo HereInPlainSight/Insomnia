@@ -1,6 +1,6 @@
 name: Insomnia
 main: com.etherelements.hereinplainsight.insomnia.insomnia
-version: 0.1
+version: 0.2
 commands:
   insomnia:
     description: Not yet implemented.  Not sure it's necessary, why did you type it?

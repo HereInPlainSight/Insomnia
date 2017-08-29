@@ -37,7 +37,7 @@ public class insomnia extends JavaPlugin implements Listener {
 	@EventHandler
 	public void onPlayerBedEnter(PlayerBedEnterEvent sleep){
 		List<Player> worldPlayers = sleep.getPlayer().getWorld().getPlayers();
-		Player[] onlinePlayers = Bukkit.getOnlinePlayers();
+		Player[] onlinePlayers = (Player[]) Bukkit.getOnlinePlayers().toArray();
 		List<Player> players = new LinkedList<Player>();
 		for (int x = 0; x < worldPlayers.size(); x++)
 			for (int y = 0; y < onlinePlayers.length; y++)
